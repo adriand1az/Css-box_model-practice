@@ -21,6 +21,8 @@ Get a better understanding of how the box model works.
     - Blocke elements - take up an entire block of space pushes other elements to a seperate line
 7. Units - Perentages, EM, & Rem
     - percentage - typically the percentage of the father element
+    - Ems - usually the size compared to the font. 1 is the same size of the element itself. 2 em is 2 times the font size. Ems go based off of the parent element (It can continually get smaller or larger)
+    - Rems - GO off of the root element (Will always use the root element as its baseline)
 ## Description
 An aesthetically pleasing website created solely with html and css.
 ## resources
