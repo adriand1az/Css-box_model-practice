@@ -6,29 +6,28 @@ html, body{
     height: 100%;
     width: 100%;
 }
-div{
+#container{
     width: 100%;
-    height: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+/*Title*/
 #title{
     background-color: turquoise;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-div#title h1{
-    text-align: center;
-    height: 50%;
-    letter-spacing: 2px;
+#title h1{
+    color: azure;
 }
-#one{
-    background-color: chartreuse;
 
-}
-#two{
-    background-color: yellow;
-}
-#three{
-    background-color: coral;
-
-}
+/* Nav bar*/
 nav{
     height: 10%;
 }
@@ -45,3 +44,21 @@ nav ul li{
     font-size: 24px;
     letter-spacing: 2px;
 }
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 33.34%;
+}
+#one{
+    background-color: yellow;
+
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: orange;
+}
+
